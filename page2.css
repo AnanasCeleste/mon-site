@@ -15,6 +15,37 @@ header{
   justify-content: center;
 }
 
+.navigation{
+    background-color: rgb(135, 131, 138);
+    height: 35px
+
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color:blanchedalmond;
+    text-decoration: underline;
+}
+
+.navigation li{
+    float:left;
+}
+
+.navigation li a{
+    text-decoration: none;
+    text-align: center;
+}
+
 img{
     width: 200px;
     border:solid 5px;
@@ -50,6 +81,28 @@ body{
 }
 
 .sous-titre{
+    margin: 0px;
     padding: 12px;
     color: rgb(254, 254, 254);
+}
+
+@media screen and (max-width:800px){
+    .persos{
+        width: 70%;
+    }
+}
+
+.footer{
+    display:flex;
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: white
+    }
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
 }
